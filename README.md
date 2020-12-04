@@ -69,7 +69,8 @@ INSERT INTO `user_credit` VALUES ('John', 20, 4000, 0, 5, 0), ('Kate', 10, 2000,
 * Run the project, if success, visiting [http://127.0.0.1:8081/test/app](http://127.0.0.1:8081/test/app) should return success as response
 
 ## 5.RUN THE ANDORID APPLICATION
-* Open the app folder with andorid and wait for the gradle to compile and run it. 
+* Open the app folder with andorid and wait for the gradle to compile.
+* Under the project folder, edit src/main/java/com/example/app/ui/home/HomeFragment.java. In line 53, replace the ip with your ip.
 * In the first page, enter one of the name that you inserted into the mysql table, then click 'login'. In the next page, click 'generate', it should show the credit that this person has.
 
 <img src="./snapshot/snapshot1.png" width="30%">
